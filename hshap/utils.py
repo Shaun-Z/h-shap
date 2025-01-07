@@ -1,8 +1,9 @@
 import torch
 import numpy as np
 from torch import Tensor
+import math
 
-factorial = np.math.factorial
+factorial = math.factorial
 
 
 def hshap_features(gamma: int) -> np.ndarray:
